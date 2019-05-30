@@ -1,0 +1,80 @@
+{
+  "_from": "react-native-pdf-lib",
+  "_id": "react-native-pdf-lib@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-w0rrVYeXuR5wRgkN3jzRnTMUVG/2e2FJAqCfzZ43Ibz0fGLBTPbWDtgeeoZNhWxnZ0siWR+imleAT/lHDT0+IA==",
+  "_location": "/react-native-pdf-lib",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-pdf-lib",
+    "name": "react-native-pdf-lib",
+    "escapedName": "react-native-pdf-lib",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-pdf-lib/-/react-native-pdf-lib-0.2.0.tgz",
+  "_shasum": "e5bf448fe79d98a2796b6180362392dd70ac47ea",
+  "_spec": "react-native-pdf-lib",
+  "_where": "C:\\Users\\a252898\\Desktop\\2ndStart\\ReactNative\\clenet",
+  "author": {
+    "name": "Andrew Dillon"
+  },
+  "bugs": {
+    "url": "https://github.com/Hopding/react-native-pdf-lib/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "A react native library for handling generating PDFs",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-jest": "^22.4.0",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-native": "4.0.0",
+    "flow": "^0.2.3",
+    "flow-bin": "^0.66.0",
+    "jest": "^22.4.0",
+    "jest-cli": "^22.4.0"
+  },
+  "homepage": "https://github.com/Hopding/react-native-pdf-lib#readme",
+  "jest": {
+    "setupFiles": [
+      "./jest/jest-setup.js"
+    ],
+    "roots": [
+      "<rootDir>/js"
+    ]
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "react-native-pdf-lib",
+  "peerDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hopding/react-native-pdf-lib.git"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets"
+    ]
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "version": "0.2.0"
+}

@@ -1,0 +1,48 @@
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.3.1'
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion project.hasProperty('compileSdkVersion') ? project.compileSdkVersion : 27        //Previously 23
+    buildToolsVersion project.hasProperty('buildToolsVersion') ? project.buildToolsVersion : '27.0.3' //Previously 25.0.0
+
+    dexOptions {
+        jumboMode true
+    }
+
+    defaultConfig {
+        minSdkVersion project.hasProperty('minSdkVersion') ? project.minSdkVersion : 16
+        targetSdkVersion project.hasProperty('targetSdkVersion') ? project.targetSdkVersion : 23
+        versionCode 1
+        versionName "1.0"
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    def reactNativeVersion = project.hasProperty('reactNativeVersion') ? project.reactNativeVersion : "+"
+
+    //compile(name:'pdfbox-android-lite-1.8.9.1', ext:'aar')
+    //compile project (':pdfbox-android-lite-1.8.9.1')
+    //compile ':pdfbox-android-lite-1.8.9.1'
+    //compile 'org.apache:pdfboxandroid:1.8.9.1'
+    //compile 'org.apache:pdfbox-android-lite:1.8.9.1'
+    //compile 'com.tom_roush:pdfbox-android:1.8.9.1'
+    compile "com.facebook.react:react-native:$reactNativeVersion" //Previously +
+}
+  
