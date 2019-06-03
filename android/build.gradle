@@ -43,6 +43,6 @@ dependencies {
     //compile 'org.apache:pdfboxandroid:1.8.9.1'
     //compile 'org.apache:pdfbox-android-lite:1.8.9.1'
     //compile 'com.tom_roush:pdfbox-android:1.8.9.1'
-    compile "com.facebook.react:react-native:$reactNativeVersion" //Previously +
+    implementation "com.facebook.react:react-native:$reactNativeVersion" //Previously +
 }
   
